@@ -2,6 +2,7 @@ import { useState } from "react";
 import Image from "next/image";
 import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
 import Search from "./Search";
+import RecentSearches from "./RecentSearches";
 
 const LeftNavigation = () => {
   const [isSearchFocused, setIsSearchFocused] = useState(false);
@@ -35,6 +36,8 @@ const LeftNavigation = () => {
         >
           <KeyboardBackspaceIcon className="text-gray-700" />
         </div>
+
+        <RecentSearches />
       </div>
     </div>
   );

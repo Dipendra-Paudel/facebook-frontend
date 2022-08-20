@@ -16,7 +16,7 @@ const Search = ({
         <input
           type="text"
           placeholder="Search Facebook"
-          className={`bg-gray-100 w-full h-full rounded-full pr-4 text-sm placeholder-gray-500 transition-all duration-300
+          className={`bg-gray-100 w-full h-full rounded-full pr-4 text-sm placeholder-gray-500 focus:placeholder-gray-400 transition-all duration-300
             ${isFocused ? "pl-4" : "pl-10"}
           `}
           value={value}

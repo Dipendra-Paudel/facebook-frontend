@@ -1,4 +1,4 @@
-import LeftNavigation from "./LeftNavigation";
+import LeftNavigation from "./left/LeftNavigation";
 
 const Navigation = () => {
   return (
